@@ -1,8 +1,8 @@
 -- Gui to Lua
 -- Version: 3.2
- 
+
 -- Instances:
- 
+
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local MM2 = Instance.new("TextButton")
@@ -31,12 +31,12 @@ local UICorner_11 = Instance.new("UICorner")
 local SyntaxFEHUB = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
 local BottemLabel = Instance.new("TextLabel")
- 
+
 --Properties:
- 
+
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
- 
+
 Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
@@ -45,7 +45,7 @@ Main.Position = UDim2.new(0.293882966, 0, 0.321729958, 0)
 Main.Size = UDim2.new(0, 619, 0, 337)
 Main.Active=true
 Main.Draggable=true
- 
+
 MM2.Name = "MM2"
 MM2.Parent = Main
 MM2.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -56,24 +56,24 @@ MM2.Font = Enum.Font.PatrickHand
 MM2.Text = "MM2"
 MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
 MM2.TextSize = 25.000
- 
+
 UICorner.Parent = MM2
 MM2.MouseButton1Down:connect(function()
 	repeat wait() until game.Players.LocalPlayer.Character
 	url = "https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua"
 	loadstring(game:HttpGet(url))()
 end)
- 
+
 TopLabel.Name = "TopLabel"
 TopLabel.Parent = Main
 TopLabel.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
 TopLabel.BorderColor3 = Color3.fromRGB(167, 167, 167)
 TopLabel.Size = UDim2.new(0, 619, 0, 50)
 TopLabel.Font = Enum.Font.SourceSans
-TopLabel.Text = "Executor Hub | TheXBro"
+TopLabel.Text = "Executor Hub | AltOfHa"
 TopLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TopLabel.TextSize = 46.000
- 
+
 Dahood.Name = "Dahood"
 Dahood.Parent = Main
 Dahood.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -84,12 +84,12 @@ Dahood.Font = Enum.Font.PatrickHand
 Dahood.Text = "Da Hood"
 Dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
 Dahood.TextSize = 25.000
- 
+
 UICorner_2.Parent = Dahood
 Dahood.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
- 
+
 Bloxburg.Name = "Bloxburg"
 Bloxburg.Parent = Main
 Bloxburg.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -100,13 +100,13 @@ Bloxburg.Font = Enum.Font.PatrickHand
 Bloxburg.Text = "Bloxburg"
 Bloxburg.TextColor3 = Color3.fromRGB(0, 0, 0)
 Bloxburg.TextSize = 25.000
- 
+
 UICorner_3.Parent = Bloxburg
 Bloxburg.MouseButton1Down:connect(function()
 	local http_request = http_request or request or (syn and syn.request) or (http and http.request)
 	loadstring(http_request({Url="https://cdn.applebee1558.com/autoloader.lua", Method="GET"}).Body)()
 end)
- 
+
 Arsenal.Name = "Arsenal"
 Arsenal.Parent = Main
 Arsenal.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -117,12 +117,12 @@ Arsenal.Font = Enum.Font.PatrickHand
 Arsenal.Text = "Arsenal"
 Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
 Arsenal.TextSize = 25.000
- 
+
 UICorner_4.Parent = Arsenal
 Arsenal.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 end)
- 
+
 PSX.Name = "PSX"
 PSX.Parent = Main
 PSX.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -133,12 +133,12 @@ PSX.Font = Enum.Font.PatrickHand
 PSX.Text = "PSX"
 PSX.TextColor3 = Color3.fromRGB(0, 0, 0)
 PSX.TextSize = 25.000
- 
+
 UICorner_5.Parent = PSX
 PSX.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua", true))()
 end)
- 
+
 Anomic.Name = "Anomic"
 Anomic.Parent = Main
 Anomic.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -149,12 +149,12 @@ Anomic.Font = Enum.Font.PatrickHand
 Anomic.Text = "Anomic"
 Anomic.TextColor3 = Color3.fromRGB(0, 0, 0)
 Anomic.TextSize = 25.000
- 
+
 UICorner_6.Parent = Anomic
 Anomic.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/ANOMIC.lua", true))()
 end)
- 
+
 AllStarTowerDefense.Name = "All Star Tower Defense"
 AllStarTowerDefense.Parent = Main
 AllStarTowerDefense.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -165,12 +165,12 @@ AllStarTowerDefense.Font = Enum.Font.PatrickHand
 AllStarTowerDefense.Text = "STD"
 AllStarTowerDefense.TextColor3 = Color3.fromRGB(0, 0, 0)
 AllStarTowerDefense.TextSize = 25.000
- 
+
 UICorner_7.Parent = AllStarTowerDefense
 AllStarTowerDefense.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
 end)
- 
+
 Luckyblocks.Name = "Luckyblocks"
 Luckyblocks.Parent = Main
 Luckyblocks.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -181,12 +181,12 @@ Luckyblocks.Font = Enum.Font.PatrickHand
 Luckyblocks.Text = "Luckyblocks"
 Luckyblocks.TextColor3 = Color3.fromRGB(0, 0, 0)
 Luckyblocks.TextSize = 25.000
- 
+
 UICorner_8.Parent = Luckyblocks
 Luckyblocks.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
 end)
- 
+
 combatwarriors.Name = "combat warriors"
 combatwarriors.Parent = Main
 combatwarriors.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -197,12 +197,12 @@ combatwarriors.Font = Enum.Font.PatrickHand
 combatwarriors.Text = "Combat Warriors"
 combatwarriors.TextColor3 = Color3.fromRGB(0, 0, 0)
 combatwarriors.TextSize = 25.000
- 
+
 UICorner_9.Parent = combatwarriors
 combatwarriors.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
 end)
- 
+
 PrisonLife.Name = "Prison Life"
 PrisonLife.Parent = Main
 PrisonLife.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -213,12 +213,12 @@ PrisonLife.Font = Enum.Font.PatrickHand
 PrisonLife.Text = "Prision Life"
 PrisonLife.TextColor3 = Color3.fromRGB(0, 0, 0)
 PrisonLife.TextSize = 25.000
- 
+
 UICorner_10.Parent = PrisonLife
 PrisonLife.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 end)
- 
+
 TheLife.Name = "The Lifit"
 TheLife.Parent = Main
 TheLife.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -229,12 +229,12 @@ TheLife.Font = Enum.Font.PatrickHand
 TheLife.Text = "The Lift"
 TheLife.TextColor3 = Color3.fromRGB(0, 0, 0)
 TheLife.TextSize = 25.000
- 
+
 UICorner_11.Parent = TheLife
 TheLife.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/lel69/Gui/main/TheLiftGui"))()
 end)
- 
+
 SyntaxFEHUB.Name = "Syntax FE HUB"
 SyntaxFEHUB.Parent = Main
 SyntaxFEHUB.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
@@ -245,12 +245,12 @@ SyntaxFEHUB.Font = Enum.Font.PatrickHand
 SyntaxFEHUB.Text = "Syntax FE HUB"
 SyntaxFEHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
 SyntaxFEHUB.TextSize = 25.000
- 
+
 UICorner_12.Parent = SyntaxFEHUB
 SyntaxFEHUB.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Vallater/SyntaxFE/fbbffe71caabfa5341bb0e09865c0659574978e8/GG.txt'),true))()
 end)
- 
+
 BottemLabel.Name = "BottemLabel"
 BottemLabel.Parent = Main
 BottemLabel.BackgroundColor3 = Color3.fromRGB(167, 167, 167)
